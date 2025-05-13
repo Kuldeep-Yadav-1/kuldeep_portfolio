@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuldeep Portfolio Project with tailwind</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/x-icon" href="../media/icons/Fabicon.jpg" />
+    <!-- <link rel="stylesheet" href="porfolio.css" /> -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .home-gradient {
+        background: #020024;
+        background: linear-gradient(
+          323deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(9, 9, 121, 1) 35%,
+          rgba(0, 212, 255, 1) 100%
+        );
+      }
+    </style>
+  </head>
+  <body class="" style="font-family: Poppins">
+    <!-- <ul
+      style="font-family: Poppins"
+      class="nav-list shadow-lg fixed font-semibold flex justify-evenly items-center text-blue-900 bg uppercase bg-cyan-100 w-320 h-10 top-0"
+    >
+      <li><a href="#" class="hover:underline underline-offset-3">Home</a></li>
+      <li>
+        <a href="#about-me" class="hover:underline underline-offset-3"
+          >Education</a
+        >
+      </li>
+      <li>
+        <a href="#skills" class="hover:underline underline-offset-3"
+          >Tech & Skills</a
+        >
+      </li>
+      <li>
+        <a href="#project" class="hover:underline underline-offset-3"
+          >Trainning & Projects</a
+        >
+      </li>
+      <li>
+        <a href="#contact" class="hover:underline underline-offset-3"
+          >Contact Us</a
+        >
+      </li>
+    </ul> -->
+
+    <!-- hero section start -->
+    <div class="home-gradient border lg:h-[40rem]">
+      <div
+        class="grid lg:grid-cols-2 grid-cols-1 rounded lg:mx-24 md:mx-20 lg:pt-20 pt-20 pb-10"
+        id="home"
+      >
+        <div class="flex justify-center ">
+          <img
+            src="../media/kuldeep.jpg"
+            alt="kuldeep_image"
+            class="rounded-full shadow-2xl lg:w-[62%] md:w-[50%] w-[60%]"
+          />
+        </div>
+        <div
+          class="my-auto lg:mt-auto md:mt-10 mt-5 text-center p-4 text-blue-200"
+        >
+          <p class="lg:text-3xl md:text-2xl text-xl leading-snug">
+            Hi! I Am
+            <span class="text-white font-semibold">Kuldeep Yadav</span>
+          </p>
+          <h1
+            class="lg:text-6xl md:text-5xl text-3xl font-bold text-white leading-relaxed"
+          >
+            Web Developer.
+          </h1>
+          <p class="lg:text-lg text-base">
+            A Front-End Developer with entry-level experience specializing in
+            web development & user interface, also upskilling in nodeJS back-end
+            services.
+          </p>
+          <div class="mt-8 pb-8">
+            <a
+              href="./resume.html"
+              class="lg:text-xl md:text-lg text-base bg-white text-blue-900 mr-2.5 px-2.5 py-1.5 rounded"
+              target="_blank"
+              ><button class="cursor-pointer">Resume<i class="fa-solid fa-file ml-2"></i></button></a
+            >
+            <a
+              href="#project"
+              class="lg:text-xl md:text-lg text-base bg-white text-blue-900 px-2.5 py-1.5 rounded"
+              ><button class="cursor-pointer">Project<i class="fa-solid fa-laptop-file ml-2"></i></i></button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hero section end -->
+
+    <!-- main body section start -->
+    <div class="text-black-600 lg:mx-24 sm:mx-20">
+      <!-- About Me section start-->
+      <div class="p-4 lg:my-10 md:my-7" id="about-me">
+        <h2
+          class="text-center lg:font-semibold lg:leading-8 my-2.5 leading-8 lg:text-4xl md:text-3xl text-2xl font-bold mb-5"
+        >
+          About <span class="text-blue-900">Me</span>
+        </h2>
+        <div class="grid grid-col-1 gap-8">
+           <div class="mx-auto my-auto shadow-2xl rounded">
+            <img src="../media/icons/coding.gif" alt="coding-image" class="mx-auto w-[50%] h-[75%] p-2">
+           </div>
+           <p class="text-center lg:text-lg md:text-base text-sm text-gray-600">
+             I have a strong foundation in
+             <span class="text-blue-900 font-semibold">front-end development</span >, with experience in        building responsive and user-friendly interfaces
+              using HTML, CSS, JavaScript, and modern frameworks like React.
+              Currently, I’m actively
+              <span class="text-blue-900 font-semibold">upskilling in back-end technologies</span >to become a proficient
+              <span class="text-blue-900 font-semibold">full stack developer.</span>
+            </p>
+         </div>
+      </div>
+      <!-- About Me section End-->
+
+      <!-- Education section  start-->
+      <div class="p-4 my-5" id="education">
+        <h2 class="text-center lg:font-semibold lg:leading-8 my-2.5 leading-8 lg:text-4xl md:text-3xl text-2xl font-bold mb-5" >
+          Education <span class="text-blue-900">& Trainning</span>
+        </h2>
+
+        <h2 class="text-xl font-semibold text-blue-900">Education</h2>
+
+        <div class="flex my-2">
+          <img
+            src="../media/icons/school-solid.svg"
+            alt="degree"
+            class="w-12 h-12 me-3 p-2 rounded-full border my-auto cursor-pointer hover:shadow-2xl"
+          />
+          <div class="lg:text-base text-sm text-gray-600 my-auto">
+            <h4 class="text-blue-900 font-semibold">
+              High School from UP Board (held 16th position in UP state)
+            </h4>
+            <h6 class="">
+              BNSD Shiksha Niketan Inter College ,Kanpur
+            </h6>
+          </div>
+        </div>
+
+        <div class="flex my-2">
+          <img
+            src="../media/icons/chalkboard-user-solid.svg"
+            alt="degree"
+            class="w-12 h-12 me-3 p-2 rounded-full border my-auto cursor-pointer hover:shadow-2xl"
+          />
+          <div class="lg:text-base text-sm text-gray-600 my-auto">
+            <h4 class="text-blue-900 font-semibold">
+              Intermediate (Board of High School & Intermediate Education, Uttar Pradesh)
+            </h4>
+            <h6 class="">
+              BNSD Shiksha Niketan Inter College ,Kanpur
+            </h6>
+          </div>
+        </div>
+
+        <div class="flex my-2">
+          <img
+            src="../media/icons/education.svg"
+            alt="degree"
+            class="w-12 h-12 me-3 p-2 rounded-full border my-auto cursor-pointer hover:shadow-2xl"
+          />
+          <div class="lg:text-base text-sm text-gray-600 my-auto">
+            <h4 class="text-blue-900 font-semibold">
+              Bachelors in Technology (Computer Science & Engineering)
+            </h4>
+            <h6 class="">
+              Feroze Gandhi engg. institute & technology ,Raebareli
+            </h6>
+          </div>
+        </div>
+
+        <div class="grid grid-col-2 mt-4">
+          <h2 class="text-xl font-semibold text-blue-900">Work Experience</h2>
+          <div class="flex">
+            <img
+              src="../media/icons/internship.svg"
+              alt="degree"
+              class="w-12 h-12 me-3 p-2 my-auto rounded-full border cursor-pointer hover:shadow-2xl"
+            />
+            <div class="lg:text-base text-sm text-gray-600 my-auto">
+              <h4 class="text-blue-900 font-semibold">
+                Frontend Developer - Intern
+              </h4>
+              <h6 class="">Odin School ,Hyderabad</h6>
+            </div>
+          </div>
+          <div class="flex my-2">
+            <img
+              src="../media/icons/working.svg"
+              alt="trainning"
+              class="w-12 h-12 me-3 p-2 my-auto rounded-full border cursor-pointer hover:shadow-2xl"
+            />
+            <div class="lg:text-base text-sm text-gray-600 my-auto">
+              <h4 class="text-blue-900 font-semibold">
+                MERN Developer (Trainning & Placement)
+              </h4>
+              <h6 class="">Arivani Technologies Pvt. Ltd. ,Lucknow</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Education section  End-->
+
+      <!-- skills section start -->
+      <div class="p-4 my-5" id="skills">
+        <h2
+          class="text-center lg:font-semibold lg:leading-8 my-2.5 leading-8 lg:text-4xl md:text-3xl text-2xl font-bold mb-5"
+        >
+          Tech <span class="text-blue-900">& Skills</span>
+        </h2>
+        <div
+          class="grid lg:grid-cols-3 lg:gap-12 md:grid-cols-2 md:gap-14 gap-12 grid-cols-1 lg:p-4 md:p-4 p-4"
+        >
+          <div class="cursor-pointer rounded shadow-2xl hover:animate-pulse">
+            <img
+              src="../media/icons/file-type-html.svg"
+              alt="html"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-xl font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900 mb-2"
+            >
+              Html
+            </h6>
+          </div>
+          <div class="cursor-pointer rounded shadow-2xl hover:animate-pulse">
+            <img
+              src="../media/icons/file-type-css.svg"
+              alt="css"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-xl font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900 mb-2"
+            >
+              CSS
+            </h6>
+          </div>
+          <div class="cursor-pointer rounded shadow-2xl hover:animate-pulse">
+            <img
+              src="../media/icons/javascript-js.svg"
+              alt="javascript"
+              class="w-30 h-30 mx-auto mt-3 mb-4"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-xl font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900 mb-2"
+            >
+              JavaScript
+            </h6>
+          </div>
+
+          <div class="cursor-pointer rounded shadow-2xl hover:animate-pulse">
+            <img
+              src="../media/icons/bootstrap-brands.svg"
+              alt="bootsrap"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-xl font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900 mb-2"
+            >
+              Bootstrap
+            </h6>
+          </div>
+          <div class="cursor-pointer rounded shadow-2xl hover:animate-pulse">
+            <img
+              src="../media/icons/tailwind-css.svg"
+              alt="tailwind"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-xl font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900 mb-2"
+            >
+              tailwind
+            </h6>
+          </div>
+          <div class="cursor-pointer rounded shadow-2xl hover:animate-pulse">
+            <img
+              src="../media/icons/react-brands.svg"
+              alt="react"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-xl font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900 mb-2"
+            >
+              React
+            </h6>
+          </div>
+          <div class="cursor-pointer rounded shadow-2xl hover:animate-pulse">
+            <img
+              src="../media/icons/node-js.svg"
+              alt="nodejs"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-xl font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900 mb-2"
+            >
+              Node JS
+            </h6>
+          </div>
+          <div class="cursor-pointer shadow-2xl rounded hover:animate-pulse">
+            <img
+              src="../media/icons/mongoDb.svg"
+              alt="mongoDb"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-xl font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900 mb-2"
+            >
+              Mongo DB
+            </h6>
+          </div>
+          <div class="cursor-pointer shadow-2xl rounded hover:animate-pulse">
+            <img
+              src="../media/icons/express-original.svg"
+              alt="expressjs"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-xl font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900 mb-2"
+            >
+              Express JS
+            </h6>
+          </div>
+          <div class="cursor-pointer shadow-2xl rounded hover:animate-pulse">
+            <img
+              src="../media/icons/github-brands.svg"
+              alt="git"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-xl font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900 mb-2"
+            >
+              Git Hub
+            </h6>
+          </div>
+          <div class="cursor-pointer shadow-2xl rounded hover:animate-pulse">
+            <img
+              src="../media/icons/gitlab.svg"
+              alt="git"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-xl font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900 mb-2"
+            >
+              Git-lab
+            </h6>
+          </div>
+          <div class="cursor-pointer shadow-2xl rounded hover:animate-pulse">
+            <img
+              src="../media/icons/problem-solving-icon.svg"
+              alt="git"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-xl font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900 mb-2"
+            >
+              Problem Solving
+            </h6>
+          </div>
+        </div>
+      </div>
+      <!-- skills section End -->
+
+      <!-- Project portfolio section start -->
+      <!-- <div class="p-4 my-5" id="project">
+        <h2
+          class="text-center lg:font-semibold lg:leading-8 my-2.5 leading-8 lg:text-4xl md:text-3xl text-2xl font-bold v"
+        >
+          Project <span class="text-blue-900">Portfolio</span>
+        </h2>
+        <div
+          class="grid lg:grid-cols-3 lg:gap-12 md:grid-cols-2 md:gap-14 gap-12 grid-cols-1 lg:p-4 md:p-4 p-4"
+        >
+          <div class="cursor-pointer shadow-2xl rounded hover:animate-pulse">
+            <img
+              src="../media/icons/netflix.svg"
+              alt="netflix"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-lg font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900"
+            >
+              Netflix
+            </h6>
+          </div>
+          <div class="cursor-pointer shadow-2xl rounded hover:animate-pulse">
+            <img
+              src="../media/icons/amazon.svg"
+              alt="amazon"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-lg font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900"
+            >
+              Amazon
+            </h6>
+          </div>
+          <div class="cursor-pointer shadow-2xl rounded hover:animate-pulse">
+            <img
+              src="../media/icons/weather-rain-cloud.svg"
+              alt="weather"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-lg font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900"
+            >
+              Weather App
+            </h6>
+          </div>
+          <div class="cursor-pointer shadow-2xl rounded hover:animate-pulse">
+            <img
+              src="../media/icons/bank-payment.svg"
+              alt="Banking app"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-lg font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900"
+            >
+              Banking Pay
+            </h6>
+          </div>
+          <div class="cursor-pointer shadow-2xl rounded hover:animate-pulse">
+            <img
+              src="../media/icons/e-commerce.svg"
+              alt="E-commerce"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-lg font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900"
+            >
+              E-commerce
+            </h6>
+          </div>
+          <div class="cursor-pointer shadow-2xl rounded hover:animate-pulse">
+            <img
+              src="../media/icons/portfolio (1).svg"
+              alt="portfolio"
+              class="w-32 h-32 mx-auto my-3"
+            />
+            <h6
+              class="text-center lg:text-2xl md:text-2xl text-lg font-semibold text-gray-600 my-auto font-semibold hover:text-blue-900"
+            >
+              Portfolio Project
+            </h6>
+          </div>
+        </div>
+      </div> -->
+      <!-- Project portfolio section End -->
+
+      <!-- Contact section start -->
+      <div class="p-4 my-5" id="contact">
+        <h2
+          class="text-center lg:font-semibold lg:leading-8 my-2.5 leading-8 lg:text-4xl md:text-3xl text-2xl font-bold mb-5"
+        >
+          Contact <span class="text-blue-900">Us</span>
+        </h2>
+
+        <div
+          class="grid lg:grid-cols-1 md:grid-cols-1 grid-col-1 lg:gap-5 md:gap-5 gap-1 "
+        >
+          <!-- <div class="bg-white shadow-2xl border border-gray-300 rounded-lg">
+            <form class="p-5">
+              <input
+                type="text"
+                id="name"
+                class="bg-gray-200 border border-gray-100 text-blue-900 text-sm rounded-lg block w-full p-2"
+                placeholder="Enter Your name"
+                required
+              />
+
+              <input
+                type="email"
+                id="email"
+                class="bg-gray-200 border border-gray-100 text-blue-900 text-sm rounded-lg block w-full p-2 mt-3"
+                placeholder="Enter Your Email"
+                required
+              />
+
+              <textarea
+                id="message"
+                rows="3"
+                class="block p-2 w-full text-sm text-blue-900 bg-gray-200 rounded-lg border border-gray-300 text-blue-900 mt-3"
+                placeholder="Write Your Message"
+              ></textarea>
+
+              <button
+                type="submit"
+                class="cursor-pointer text-center lg:text-base md:text-sm text-xs text-white bg-blue-900 rounded py-2 mt-2 w-full"
+              >
+                Send Message
+              </button>
+            </form>
+          </div> -->
+
+          <div class="">
+            <p
+              class="text-center p-5 text-center lg:text-lg md:text-sm text-sm text-gray-600"
+            >
+              Let’s
+              <span class="text-blue-900 font-semibold">connect & create</span>
+              something
+              <span class="text-blue-900 font-semibold">amazing together!</span>
+              I’m always excited to explore
+              <span class="text-blue-900 font-semibold"
+                >new opportunities & collaborations</span
+              >
+              that inspire
+              <span class="text-blue-900 font-semibold"
+                >innovation & creativity.</span
+              >
+              Whether you have a project idea or simply want to start a
+              conversation, don’t hesitate to reach out.
+              <span class="text-blue-900 font-semibold"
+                >"Great things happen when passionate minds come together"</span
+              >—let’s build something
+              <span class="text-blue-900 font-semibold"
+                >meaningful and impactful!</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Contact section End-->
+    </div>
+    <!-- main body section end -->
+
+    <!-- Footer section start-->
+    <hr />
+    <div class="bg-cyan-100 grid grid-col-1 p-2">
+      <div class="inline-flex mx-auto">
+        <a href="" class="rounded m-2" target="_blank">
+          <i
+            class="fa-solid fa-square-phone lg:text-2xl md:text-2xl text-xl text-gray-600 hover:text-gray-800 cursor-pointer"
+            title="+91 8299176972"
+          ></i>
+        </a>
+
+        <a href="https://www.gmail.com" class="m-2" target="_blank">
+          <i
+            class="fa-solid fa-square-envelope lg:text-2xl md:text-2xl text-xl text-gray-600 hover:text-gray-800 cursor-pointer"
+            title="Kulyad123@gmail.com"
+          ></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in" class="m-2" target="_blank">
+          <i
+            class="fa-brands fa-linkedin lg:text-2xl md:text-2xl text-xl text-gray-600 hover:text-gray-800 text-xl cursor-pointer"
+          ></i>
+        </a>
+
+        <a
+          href="https://github.com/Kuldeep-Yadav-1"
+          class="m-2"
+          target="_blank"
+        >
+          <i
+            class="fa-brands fa-square-github lg:text-2xl md:text-2xl text-xl text-gray-600 hover:text-gray-800 cursor-pointer"
+            title="Kuldeep-Yadav-1"
+          ></i>
+        </a>
+      </div>
+
+      <p class="footer text-xs text-center py-3 text-blue-900">
+        All copyrights © 2024-25
+      </p>
+    </div>
+    <!-- Footer section end-->
+  </body>
+</html>
